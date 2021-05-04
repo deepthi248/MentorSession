@@ -18,12 +18,12 @@ public class StudentDemo1 {
         System.out.println("Details of student with Id "+ student1.getStudentId()+
                 "\n Name of the student -" +student1.getStudentName()+
                 "\n Age of the student - "+ student1.getStudentAge()+
-                "\n Gender of the student -"+ student1.getStudentGender()+
-                "\n Email Id of the student -"+ student1.getEmailId()+
-                "\n Phone Number  of the student -"+ student1.getPhoneNumber()+
-                "\n Address of the student -"+ student1.getStudentAddress()+
-                "\n Number of subjects student is pursuing -"+ student1.getStudentSubjects()+
-                "\n Standard of the student -"+ student1.getStudentStandard()+"\n" +"\n" );
+                "\n Gender of the student - "+ student1.getStudentGender()+
+                "\n Email Id of the student - "+ student1.getEmailId()+
+                "\n Phone Number  of the student - "+ student1.getPhoneNumber()+
+                "\n Address of the student - "+ student1.getStudentAddress()+
+                "\n Number of subjects student is pursuing - "+ student1.getStudentSubjects()+
+                "\n Standard of the student - "+ student1.getStudentStandard()+"\n" +"\n" );
 
 
 
@@ -40,14 +40,14 @@ public class StudentDemo1 {
 
         //printing student details using getters
         System.out.println("Details of student with Id "+ student2.getStudentId()+
-                "\n Name of the student -" +student2.getStudentName()+
+                "\n Name of the student - " +student2.getStudentName()+
                 "\n Age of the student - "+ student2.getStudentAge()+
-                "\n Gender of the student -"+ student2.getStudentGender()+
-                "\n Email Id of the student -"+ student2.getEmailId()+
-                "\n Phone Number  of the student -"+ student2.getPhoneNumber()+
-                "\n Address of the student -"+ student2.getStudentAddress()+
-                "\n Number of subjects student is pursuing -"+ student2.getStudentSubjects()+
-                "\n Standard of the student -"+ student2.getStudentStandard() +"\n" +"\n" );
+                "\n Gender of the student - "+ student2.getStudentGender()+
+                "\n Email Id of the student - "+ student2.getEmailId()+
+                "\n Phone Number  of the student - "+ student2.getPhoneNumber()+
+                "\n Address of the student - "+ student2.getStudentAddress()+
+                "\n Number of subjects student is pursuing - "+ student2.getStudentSubjects()+
+                "\n Standard of the student - "+ student2.getStudentStandard() +"\n" +"\n" );
 
 
         Student student3 = new Student(); //student 3
@@ -63,9 +63,9 @@ public class StudentDemo1 {
 
         //printing student details using getters
         System.out.println("Details of student with Id "+ student3.getStudentId()+
-                "\n Name of the student -" +student3.getStudentName()+
+                "\n Name of the student - " +student3.getStudentName()+
                 "\n Age of the student - "+ student3.getStudentAge()+
-                "\n Gender of the student -"+ student3.getStudentGender()+
+                "\n Gender of the student - "+ student3.getStudentGender()+
                 "\n Email Id of the student - "+ student3.getEmailId()+
                 "\n Phone Number  of the student - "+ student3.getPhoneNumber()+
                 "\n Address of the student - "+ student3.getStudentAddress()+
