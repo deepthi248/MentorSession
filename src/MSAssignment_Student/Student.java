@@ -11,11 +11,21 @@ public class Student {
     private String studentAddress;
     private String studentStandard;
     private int studentSubjects;
+    private int[] studentMarks;
+    private Character studentGrade;
+
+    public Student(){
+        this(null,0,null,0l,(short) 0,
+                ' ',null,null);
+
+        // this(null, 0,);
+    }
+
 
     //constructor for better assignment
    public Student(String studentName, int studentId, String emailId,
                    long phoneNumber, short studentAge, char studentGender,
-                   String studentAddress, String studentStandard, int studentSubjects) {
+                   String studentAddress, String studentStandard) {
         this.studentName = studentName;
         this.studentId = studentId;
         this.studentEmailId = emailId;
@@ -24,7 +34,11 @@ public class Student {
         this.studentGender = studentGender;
         this.studentAddress = studentAddress;
         this.studentStandard = studentStandard;
-        this.studentSubjects = studentSubjects;
+    }
+    public Student( int studentSubjects,int[] studentMarks){
+
+        this.studentSubjects= studentSubjects;
+        this.studentMarks=studentMarks;
     }
 
     //printing the details
@@ -43,7 +57,7 @@ public class Student {
     //action of the object
 
     public String getStudentName() {
-        return studentName;
+        return this.studentName;
     }
 
     public void setStudentName(String studentName) {
@@ -113,4 +127,43 @@ public class Student {
     public void setStudentSubjects(int studentSubjects) {
         this.studentSubjects = studentSubjects;
     }
+
+    public int[] getStudentMarks() {
+        return studentMarks;
+    }
+
+    public void setStudentMarks(int[] studentMarks) {
+        this.studentMarks = studentMarks;
+    }
+
+    public Character getGrade() {
+        return studentGrade;
+    }
+
+    public void setGrade() {
+        this.studentGrade = assignGrade(getStudentMarks());
+    }
+    // DRY concept
+    public Character assignGrade(int[] marks){
+
+        return assignGrade(marks,getStudentSubjects());
+    }
+
+    //calculates the average of the marks and assign a grade to the student
+    //method with main functionality
+    public Character assignGrade( int [] studentMarks,int studentSubjects ){
+           int sum =0;
+           for( int i : studentMarks){
+                sum+=i;
+            }
+           double average = sum/studentSubjects;
+           if(average>=90)
+                return 'A';
+           else if( average>=70 && average<=90)
+                return 'B';
+           else
+               return 'C';
+    }
+
+
 }
