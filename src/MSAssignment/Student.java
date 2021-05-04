@@ -27,14 +27,14 @@ public class Student {
 
     public String toString(){
         return   "Details of student with Id "+this.studentId+
-                "\n Name of the student -" +this.studentName +
+                "\n Name of the student - " +this.studentName +
                 "\n Age of the student - "+ this.studentAge+
-                "\n Gender of the student -"+this.studentGender+
-                "\n Email Id of the student -"+this.emailId +
-                "\n Phone Number  of the student -"+ this.phoneNumber+
-                "\n Address of the student -"+ this.studentAddress+
-                "\n Number of subjects student is pursuing -"+ this.studentSubjects+
-                "\n Standard of the student -"+this.studentStandard + "\n" +"\n"  ;
+                "\n Gender of the student - "+this.studentGender+
+                "\n Email Id of the student - "+this.emailId +
+                "\n Phone Number  of the student - "+ this.phoneNumber+
+                "\n Address of the student - "+ this.studentAddress+
+                "\n Number of subjects student is pursuing - "+ this.studentSubjects+
+                "\n Standard of the student - "+this.studentStandard + "\n" +"\n"  ;
 
     }
 
