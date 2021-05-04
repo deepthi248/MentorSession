@@ -1,11 +1,11 @@
-package MSAssignment;
+package MSAssignment_Student;
 
 public class Student {
     //instance variables -- state of the object
     private String studentName;
     private int studentId;
-    private String emailId;
-    private long phoneNumber;
+    private String studentEmailId;
+    private long studentPhoneNumber;
     private short studentAge;
     private char studentGender;
     private String studentAddress;
@@ -13,13 +13,13 @@ public class Student {
     private int studentSubjects;
 
     //constructor for better assignment
-    public Student(String studentName, int studentId, String emailId,
+   public Student(String studentName, int studentId, String emailId,
                    long phoneNumber, short studentAge, char studentGender,
                    String studentAddress, String studentStandard, int studentSubjects) {
         this.studentName = studentName;
         this.studentId = studentId;
-        this.emailId = emailId;
-        this.phoneNumber = phoneNumber;
+        this.studentEmailId = emailId;
+        this.studentPhoneNumber = phoneNumber;
         this.studentAge = studentAge;
         this.studentGender = studentGender;
         this.studentAddress = studentAddress;
@@ -33,14 +33,15 @@ public class Student {
                 "\n Name of the student - " +this.studentName +
                 "\n Age of the student - "+ this.studentAge+
                 "\n Gender of the student - "+this.studentGender+
-                "\n Email Id of the student - "+this.emailId +
-                "\n Phone Number  of the student - "+ this.phoneNumber+
+                "\n Email Id of the student - "+this.studentEmailId +
+                "\n Phone Number  of the student - "+ this.studentPhoneNumber+
                 "\n Address of the student - "+ this.studentAddress+
                 "\n Number of subjects student is pursuing - "+ this.studentSubjects+
                 "\n Standard of the student - "+this.studentStandard + "\n" +"\n"  ;
 
     }
     //action of the object
+
     public String getStudentName() {
         return studentName;
     }
@@ -57,20 +58,20 @@ public class Student {
         this.studentId = studentId;
     }
 
-    public String getEmailId() {
-        return emailId;
+    public String getStudentEmailId() {
+        return studentEmailId;
     }
 
-    public void setEmailId(String emailId) {
-        this.emailId = emailId;
+    public void setStudentEmailId(String studentEmailId) {
+        this.studentEmailId = studentEmailId;
     }
 
-    public long getPhoneNumber() {
-        return phoneNumber;
+    public long getStudentPhoneNumber() {
+        return studentPhoneNumber;
     }
 
-    public void setPhoneNumber(long phoneNumber) {
-        this.phoneNumber = phoneNumber;
+    public void setStudentPhoneNumber(long studentPhoneNumber) {
+        this.studentPhoneNumber = studentPhoneNumber;
     }
 
     public short getStudentAge() {
@@ -112,7 +113,4 @@ public class Student {
     public void setStudentSubjects(int studentSubjects) {
         this.studentSubjects = studentSubjects;
     }
-
-
-
 }

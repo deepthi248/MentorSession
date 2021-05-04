@@ -1,4 +1,4 @@
-package MSAssignment;
+package MSAssignment_Student;
 
 public class StudentDemo2 {
     public static void main(String[] args) {
@@ -13,8 +13,8 @@ public class StudentDemo2 {
                 "\n Name of the student - " +student1.getStudentName()+
                 "\n Age of the student - "+ student1.getStudentAge()+
                 "\n Gender of the student - "+ student1.getStudentGender()+
-                "\n Email Id of the student - "+ student1.getEmailId()+
-                "\n Phone Number  of the student - "+ student1.getPhoneNumber()+
+                "\n Email Id of the student - "+ student1.getStudentEmailId()+
+                "\n Phone Number  of the student - "+ student1.getStudentPhoneNumber()+
                 "\n Address of the student - "+ student1.getStudentAddress()+
                 "\n Number of subjects student is pursuing - "+ student1.getStudentSubjects()+
                 "\n Standard of the student - "+ student1.getStudentStandard() + "\n" +"\n");
