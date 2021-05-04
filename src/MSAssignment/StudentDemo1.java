@@ -1,4 +1,4 @@
-/* package MSAssignment;
+  package MSAssignment;
 //using getters and setters
 public class StudentDemo1 {
     public static void main(String[] args){
@@ -14,6 +14,7 @@ public class StudentDemo1 {
         student1.setStudentSubjects(5);
         student1.setStudentStandard("V");
 
+        //printing student details using getters
         System.out.println("Details of student with Id "+ student1.getStudentId()+
                 "\n Name of the student -" +student1.getStudentName()+
                 "\n Age of the student - "+ student1.getStudentAge()+
@@ -37,6 +38,7 @@ public class StudentDemo1 {
         student2.setStudentSubjects(6);
         student2.setStudentStandard("VIII");
 
+        //printing student details using getters
         System.out.println("Details of student with Id "+ student2.getStudentId()+
                 "\n Name of the student -" +student2.getStudentName()+
                 "\n Age of the student - "+ student2.getStudentAge()+
@@ -59,16 +61,17 @@ public class StudentDemo1 {
         student3.setStudentSubjects(8);
         student3.setStudentStandard("IX");
 
+        //printing student details using getters
         System.out.println("Details of student with Id "+ student3.getStudentId()+
                 "\n Name of the student -" +student3.getStudentName()+
                 "\n Age of the student - "+ student3.getStudentAge()+
                 "\n Gender of the student -"+ student3.getStudentGender()+
-                "\n Email Id of the student -"+ student3.getEmailId()+
-                "\n Phone Number  of the student -"+ student3.getPhoneNumber()+
-                "\n Address of the student -"+ student3.getStudentAddress()+
-                "\n Number of subjects student is pursuing -"+ student3.getStudentSubjects()+
-                "\n Standard of the student -"+ student3.getStudentStandard() + "\n" +"\n");
+                "\n Email Id of the student - "+ student3.getEmailId()+
+                "\n Phone Number  of the student - "+ student3.getPhoneNumber()+
+                "\n Address of the student - "+ student3.getStudentAddress()+
+                "\n Number of subjects student is pursuing - "+ student3.getStudentSubjects()+
+                "\n Standard of the student - "+ student3.getStudentStandard() + "\n" +"\n");
 
 
     }
-}*/
+}
