@@ -1,6 +1,7 @@
 package MSAssignment;
 
 public class Student {
+    //instance variables -- state of the object
     private String studentName;
     private int studentId;
     private String emailId;
@@ -11,6 +12,7 @@ public class Student {
     private String studentStandard;
     private int studentSubjects;
 
+    //constructor for better assignment
     public Student(String studentName, int studentId, String emailId,
                    long phoneNumber, short studentAge, char studentGender,
                    String studentAddress, String studentStandard, int studentSubjects) {
@@ -25,6 +27,7 @@ public class Student {
         this.studentSubjects = studentSubjects;
     }
 
+    //printing the details
     public String toString(){
         return   "Details of student with Id "+this.studentId+
                 "\n Name of the student - " +this.studentName +
@@ -37,7 +40,7 @@ public class Student {
                 "\n Standard of the student - "+this.studentStandard + "\n" +"\n"  ;
 
     }
-
+    //action of the object
     public String getStudentName() {
         return studentName;
     }
