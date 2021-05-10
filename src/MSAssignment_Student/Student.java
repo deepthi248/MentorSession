@@ -13,6 +13,7 @@ public class Student {
     private int studentSubjects;
     private int[] studentMarks;
     private Character studentGrade;
+    private int fees;
 
     public Student(){
         this(null,0,null,0l,(short) 0,
@@ -165,5 +166,11 @@ public class Student {
                return 'C';
     }
 
+    public void setFees(int fees) {
+        this.fees = fees;
+    }
 
+    public int getFees() {
+        return fees;
+    }
 }

@@ -13,6 +13,9 @@ public class StudentDemo1 {
         student1.setStudentAddress("Westminster,London,UK ");
         student1.setStudentSubjects(5);
         student1.setStudentStandard("V");
+        int [] marks = new int[student1.getStudentSubjects()];
+
+
 
         //printing student details using getters
         System.out.println("Details of student with Id "+ student1.getStudentId()+
