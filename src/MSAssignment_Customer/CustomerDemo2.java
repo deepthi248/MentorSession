@@ -1,6 +1,6 @@
 package MSAssignment_Customer;
 //using getters and setters
-
+/*
 public class CustomerDemo2 {
     public static void main(String[] args){
        Customer customer4= new Customer();
@@ -53,3 +53,4 @@ public class CustomerDemo2 {
 
     }
 }
+*/

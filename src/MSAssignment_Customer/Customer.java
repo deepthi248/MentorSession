@@ -7,6 +7,11 @@ public class Customer {
     private String customerEmailId;
     private long customerPhoneNumber;
     private boolean customerType;
+    private RegularCustomer regularCustomer;
+    private PrevilagedCustomer previlagedCustomer;
+
+    //default constructors
+  //  public Customer(){}
 
      public Customer(int customerId, String customerName, String customerAddress, String customerEmailId, long customerPhoneNumber, boolean customerType) {
         this.customerId = customerId;
@@ -16,6 +21,7 @@ public class Customer {
         this.customerPhoneNumber = customerPhoneNumber;
         this.customerType = customerType;
     }
+
 
     public void printCustomerDetails(){
             System.out.print( "\nDetails of customer " + this.customerId +
@@ -73,4 +79,6 @@ public class Customer {
     public void setCustomerType(boolean customerType) {
         this.customerType = customerType;
     }
+
+
 }
