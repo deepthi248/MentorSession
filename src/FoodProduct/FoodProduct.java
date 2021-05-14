@@ -20,7 +20,9 @@ public abstract class  FoodProduct {
     }
 
     public void setItemId(String itemId) {
-        this.itemId = itemId;
+        String item="F";
+        int number = 90;
+        this.itemId = item + number++;
     }
 
     public String getItemName() {
