@@ -1,4 +1,8 @@
 import java.util.*;
+//Bob: {{"bob', 87} {'mike,'90'}{'bob', 100}}
+//"Bob" : [87,100]
+
+
 
 public class AssignmentString {
     public static void main(String []args){
