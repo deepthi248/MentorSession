@@ -3,19 +3,26 @@ package ProblemSolving;
 public class MaximumSumSubArray_SlidingWindow {
 
     public static void main(String[] args){
-        int arr [] ={1,4,2,10,23,3,1,0,20};
+        int arr [] ={2,3};
         int k =2;
-        int sum=0, temp=0;
-        int startIndex=0;
-        for( int endIndex =0; endIndex<arr.length;endIndex++){
+       System.out.print( getMaxSum(arr,k) );
+
+    }
+    public static int getMaxSum(int arr[],int k ){
+        int startIndex=0; int sum=0;int temp = 0;
+        for( int endIndex=0;endIndex <arr.length;endIndex++){
             sum+=arr[endIndex];
-            if(endIndex>=k+1){
-                if( sum>=temp)
-                     temp=sum;
+
+            if(endIndex >= k-1){
+
+                if(temp <= sum)
+                        temp=sum;
+
                 sum-=arr[startIndex];
                 startIndex++;
             }
+
         }
-        System.out.print(temp);
+        return temp;
     }
 }
