@@ -9,8 +9,8 @@ public abstract class  FoodProduct {
      abstract double  calculateBill();
 
 
-    public FoodProduct(String itemId, String itemName, char itemType) {
-        this.itemId = itemId;
+    public FoodProduct( String itemName, char itemType) {
+
         this.itemName = itemName;
         this.itemType = itemType;
     }

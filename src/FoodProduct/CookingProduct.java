@@ -1,4 +1,4 @@
-package FoodProduct;
+/*package FoodProduct;
 
 public class CookingProduct extends FoodProduct{
     private float pricePerKg;
@@ -86,4 +86,4 @@ public class CookingProduct extends FoodProduct{
     }
 }
 
-
+*/

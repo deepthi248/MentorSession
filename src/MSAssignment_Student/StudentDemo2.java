@@ -1,4 +1,4 @@
-package MSAssignment_Student;
+/*package MSAssignment_Student;
 
 import MSAssignment_Customer.RegularCustomer;
 
@@ -83,9 +83,10 @@ public class StudentDemo2 {
 
         // printing the student details
 
-        System.out.print(student3.toString());*/
+        System.out.print(student3.toString());
 
 
     }
 
 }
+*/

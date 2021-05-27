@@ -25,7 +25,7 @@ public class AssignmentUsingLinkedListHashMap {
             } else {
                 List<Integer> temp = new ArrayList<>();
                 temp.add(Integer.parseInt(students[i][1]));
-                hashmap.put(students[i][0], temp);
+                // hashmap.putIfAbsent(students[i][0], temp);
             }
         }
         return hashmap;
@@ -41,15 +41,12 @@ public class AssignmentUsingLinkedListHashMap {
                 for(int i=0;i< temp.size();i++){
                     sum+=temp.get(i);//adding all
                 }
+                // max average  --
                 int temp_average = sum/temp.size();
                 if(curr_average< temp_average){
                     curr_average=temp_average;
                     student = entrySet.getKey();
-
                 }
-
-
-
             }
             else{
                 int temp_average = temp.get(0);

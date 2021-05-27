@@ -1,4 +1,4 @@
-package MSAssignment_Student;
+/*package MSAssignment_Student;
 
 public class BoardingSchoolers extends Student{
     private int numberOfDays;
@@ -9,6 +9,7 @@ public class BoardingSchoolers extends Student{
         super(studentName, studentId, emailId, phoneNumber,
                 studentAge, studentGender, studentAddress,
                 studentStandard);
+        this();
         this.numberOfDays = numberOfDays;
     }
 
@@ -20,3 +21,4 @@ public class BoardingSchoolers extends Student{
         return  (numberOfDays/30)*200;
     }
 }
+*/

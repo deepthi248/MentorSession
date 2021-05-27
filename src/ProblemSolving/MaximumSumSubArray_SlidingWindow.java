@@ -3,8 +3,8 @@ package ProblemSolving;
 public class MaximumSumSubArray_SlidingWindow {
 
     public static void main(String[] args){
-        int arr [] ={2,3};
-        int k =2;
+        int arr [] ={4,2,10,23};
+        int k =4;
        System.out.print( getMaxSum(arr,k) );
 
     }
