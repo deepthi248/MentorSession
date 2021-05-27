@@ -5,8 +5,9 @@ import java.util.Map;
 
 public class LongestSubstringWithoutRepitition_slidingWindow {
     public static void main(String[] args) {
-    String str = "puikjlwwwwwkew";
-    System.out.print(longestSubstring(str));
+    String [] str = {"abcabcbb","abbbb","abccde","pwwkew","","abba"};
+    for(String string: str)
+             System.out.println(longestSubstring(string));
     }
     public static int longestSubstring(String str){
         int startIndex = 0, length = Integer.MIN_VALUE;
@@ -32,3 +33,11 @@ public class LongestSubstringWithoutRepitition_slidingWindow {
         return length;
     }
 }
+/* Op:
+3
+2
+3
+3
+0
+2
+ */
