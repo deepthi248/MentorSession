@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class LongestSubstringWithoutRepitition_slidingWindow {
     public static void main(String[] args) {
-    String str = "aaa";
+    String str = "pwwkew";
     System.out.print(longestSubstring(str));
     }
     public static int longestSubstring(String str){
@@ -16,6 +16,8 @@ public class LongestSubstringWithoutRepitition_slidingWindow {
 
             if(myMap.containsKey(left)){
                 startIndex++;
+                for( int i =0; i<=endIndex;i++)
+                    myMap.remove(str.charAt(i));
             }
             else{
                 myMap.put(left,1);
